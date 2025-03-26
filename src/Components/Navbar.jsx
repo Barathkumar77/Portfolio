@@ -2,6 +2,7 @@
   import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import { logo } from "../constants/index";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link to="/">
-          <img src="/src/assets/Logo1.png" alt="logo" className="w-28 h-28" />
+          <img src={logo} alt="logo" className="w-28 h-28" />
         </Link>
 
         {/* Mobile Menu Button */}

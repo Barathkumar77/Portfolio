@@ -5,7 +5,8 @@ import About from "./Components/About";
 import Technologies from "./Components/Technologies";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
-import ParticleBackground from "./components/ParticleBackground";
+import ParticleBackground from "./Components/ParticleBackground";
+// import ParticleBackground from "./components/ParticleBackground";
 
 
 const App = () => {

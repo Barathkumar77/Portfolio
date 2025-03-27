@@ -26,9 +26,11 @@ const iconVariants = (duration) => ({
 const Technologies = () => {
   return (
     <div className="border-b border-neutral-800 pb-24 mt-10  py-16 px-6 lg:px-20" id="technologies">
-      <FlipText className="text-5xl font-extrabold tracking-widest text-orange-500 pb-10 text-center">
-        TECHNOLOGIES
-      </FlipText>
+   <FlipText className="text-5xl sm:text-5xl md:text-5xl lg:text-5xl font-extrabold lg:tracking-widest sm:tracking-normal  text-orange-500 pb-10 text-center ">
+  TECHNOLOGIES
+</FlipText>
+
+
 
       {/* Animated icons container */}
       <motion.div

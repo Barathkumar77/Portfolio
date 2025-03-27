@@ -4,7 +4,7 @@ import project2 from "../assets/projects/Project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.png";
 import project5 from "../assets/projects/project-5.png";
-import project6 from "../assets/projects/project-6.png";
+import project6 from "../assets/projects/project6.png"
 import logo from '../assets/Logo1.png'
 import { Link } from "react-router-dom";
 
@@ -55,12 +55,12 @@ export const PROJECTS = [
     Link: "https://image-slider-rho-one.vercel.app/",
   },
   {
-    title: "Renity Audio Page",
+    title: "Flag Site",
     image: project6,
     description:
-      "A sleek and modern Renity Audio landing page built with HTML and CSS, showcasing premium sound products with a stylish design.",
-    technologies: ["HTML", "CSS",],
-    Link: "https://renity.vercel.app/",
+      "Flag Site is a responsive web app for exploring country flags and their details.",
+    technologies: ["HTML", "CSS","Javascript"],
+    Link: "https://flag-site.vercel.app/",
   },
 ];
 
